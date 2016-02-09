@@ -1,0 +1,376 @@
+  <!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=yes">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>株式会社Fig Leavesスタッフ </title>
+    <!-- Bootstrap -->
+    <link href = "css/bootstrap.css" rel="stylesheet">
+   
+    <link href = "css/css/hover.css" rel = "stylesheet" >
+    <link href = "css/css/hover-min.css" rel = "stylesheet" >
+    <link rel = "stylesheet" href = "topFigleaves.css">
+    <link rel="stylesheet" href="image.css" type="text/css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="http://bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="http://slidebars_sample_style.css">
+    <link href="jquery.fs.naver.css" media="all" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+    <script src="jquery.fs.naver.js"></script>
+    <script type="text/javascript" src="path/footerFixed.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/drawer.js"></script>
+    <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.slabel')
+          .hover(function() {
+        $(this).stop(true, true).animate({  left: 180 }, 5210);
+          }, function() {
+        $(this).stop(true, true).animate({ left: 30 }, 4210);
+          });
+    });
+</script>
+<script type="text/javascript"> 
+$(function(){
+
+  $('ul.nav li')
+    .css({opacity: 0})
+    .each(function(i){
+      $(this).delay(300*i).animate({opacity:1}, 1500);
+    });
+});
+</script>
+<script type="text/javascript">
+           $(document).ready(function() {
+  $(".drawer").drawer();
+
+});
+           
+</script>
+<script type="text/javascript">
+$(document).click(function() {　$('.drawer').drawer('close');　});
+</script>
+  </head>
+<body>
+
+    <div>
+      <nav class = "navbar navbar-inverse navbar-fixed-top">
+        <div class = "navbar-header">
+          <button class = "drawer" data-toggle="collapse" data-target=".target">
+            <span class = "icon-bar"></span>
+            <span class = "icon-bar"></span>
+            <span class = "icon-bar"></span>
+          </button>
+         <a class = "navbar-brand" href="FigLeaves.html">FIG LEAVES</a>
+        </div>
+         
+          <div id="menubar"  class ="collapse navbar-collapse target">
+            <ul id="mainmenu" class = "nav navbar-nav" >
+              <li class ="button hvr-buzz-out"><a href="#services">Service</a></li>
+              <li class ="button hvr-buzz-out"><a href="#staff">Staff</a></li>
+              <li class ="button hvr-buzz-out"><a href="#recruit">Recruit</a></li>
+               <li class ="button hvr-buzz-out"><a href="http://fig-leaves.bz/blog">Blog</a></li>
+            </ul>
+            <ul class = "nav navbar-nav navbar-right" >
+              <li class = "button hvr-buzz-out"><a href="mailto:info@example.com?subject=問い合わせ&amp;body=ご記入ください">Contact</a></li>
+            </ul>
+          </div>
+      </nav>
+    </div>
+<section id="top">
+  <div class="videodot"></div>
+    <div class="topimage">
+     <img id="topVideo" class = "col-md-12 col-sm-12 col-xs-12" src="./picture/topimage.jpg" autoplay loop>
+      <div class="textWrap">
+      <p class="topText">Creats future have never existed today.</p>
+      </div>
+  </div>
+</section>
+<div id="wrap">
+  
+  <!--Service-->
+  <section id= "services">
+    <div class="container">
+      <div></div>
+      <div id="service"  class="col-sm-12 col-xs-12　col-md-12">
+        <p  class ="stitle"> Service</p>
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12" >
+        <div class ="sho"> </div>
+          <div class = "section-heading">
+             <h1>動画/ウェブ制作・広告事業</h1>
+                <div class ="sicon1"><span class="glyphicon glyphicon-facetime-video fa-3x" aria-hidden="true"></span></div>
+              <span class = "stext">         
+              O2O広告サービス、<a href="http://www.skillots.com/">動画クラウドサービス</a>、<br>
+              アプリ、ウェブサイトの制作を実施しています。
+              </span>
+            <div class ="sho"> </div>
+          </div>
+  </div>
+
+      <div class="col-md-4 col-sm-12 col-xs-12" >
+        <div class ="sho"></div>
+          <div class = "section-heading">
+            <h2>メディア事業</h2>
+            <div class ="sicon2"><span class="glyphicon glyphicon-heart fa-3x" aria-hidden="true"></span></div>
+            <span class = "stext">
+            CSRメディアを開発、運営しています。<br>
+            社会貢献の価値を最大化します。
+            </span>
+            <div class ="sho"> </div>
+        </div>
+    </div>
+
+      <div class="col-md-4 col-sm-12 col-xs-12" >
+        <div class ="sho"></div>
+          <div class = "section-heading">
+        <h3>アプリ事業</h3>
+        <div class ="sicon3"><span class="glyphicon glyphicon-phone fa-3x" aria-hidden="true"></span></div>
+        <span class = "stext">
+       キュレーションアプリの開発・運営、<br>
+        ゲーム開発・運営を行っています。
+      </span>
+      <div class ="sho"> </div>
+      </div>
+  </div>
+  </div>
+</section>
+
+  <!--Staff-->
+  <section id = "staff">
+      <div class ="stitle">Staff</div>
+
+      <img class="staffview"  src="./picture/staff.png">
+
+       <div class = "container">
+       <!--Kishi-->
+    <div class="col-md-4 col-sm-4 col-xs-12" >
+       <div  class="imgholder" >
+        <div class="outer1 circle"></div>
+        <div class="outer2 circle"></div>
+          <img data-tgt="wd1" class ="btns" src="./picture/kishi.png"></img>
+          <figcaption class="caption">Founder/Engineer: Yoshua Kishi</figcaption>
+        </div>
+    </div>
+
+    <!--Hara-->
+    <div class="col-md-4 col-sm-4 col-xs-12" >
+       <div  class="imgholder">
+           <div class="outer3 circle"></div>
+        <div class="outer4 circle"></div>
+          <img data-tgt="wd2" class ="btns" src="./picture/ricaco.jpg"></img>
+          <figcaption class="caption">Sales MGR: Ricaco</figcaption>
+        </div>
+    </div>
+
+  <!--Ito-->
+        <div class="col-md-4 col-sm-4 col-xs-12" >
+          <div  class="imgholder">
+            <div class="outer5 circle"></div>
+            <div class="outer6 circle"></div>
+            <figure>
+                <img data-tgt="wd3" class ="btns" src="./picture/sou.jpg"></img>
+                <figcaption class="caption">Scala/iOS Engineer: Itosou</figcaption>
+            </figure>
+          </div>
+        </div>
+    </div>
+
+</section>
+
+  <!--Company-->
+  <section id = "company"><div class="linecontent1">
+    <div class = "container">
+      <div class="col-md-6 col-sm-12 col-xs-12" >
+      <div class = "stitle">Company</div>
+       <table class ="table">  
+  <tr>  
+    <th class="t_top " width="130">会社名</th>  
+    <td class="t_top">株式会社Fig Leaves </td>  
+  </tr>  
+  <tr>  
+    <th>設立</th>  
+    <td>2014年11月11日</td>  
+  </tr>  
+  <tr>  
+    <th>決算期</th>  
+    <td>10月31日</td>  
+  </tr>  
+  <tr>  
+    <th>所在地</th>  
+    <td>東京都渋谷区桜丘町29-24<br>
+      秀和桜丘レジデンス502<br>
+      ※　渋谷駅徒歩5分　代官山駅徒歩8分</td>  
+  </tr>  
+  <tr>  
+    <th>MAIL</th>  
+    <td>info@fig-leaves.bz<br>
+      営業の際は上記アドレスまでご連絡ください。  </td>  
+  </tr>  
+   <tr>  
+    <th>代表者</th>  
+    <td>代表取締役　岸慶紀</td>  
+  </tr>  
+   <tr>  
+    <th>事業内容</th>  
+    <td>動画・ウェブサイト制作／広告事業<br>
+        メディア事業<br>
+        アプリ開発事業
+    </td>  
+  </tr>  
+</table>
+    </div>
+<div class = "stitle">Facebook</div>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    <div class="col-md-6 col-sm-12 col-xs-12" >
+      <div class = "faceb">
+        <div class="fb-page" data-href="http://www.facebook.com/figleaves.bz" data-width="320px" data-height="420px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="http://www.facebook.com/figleaves.bz"><a href="http://www.facebook.com/figleaves.bz">株式会社Fig Leaves</a></blockquote></div></div>
+    </div>
+    </div>
+</div>  </section>
+
+  <!--Recuit-->
+  <section id = "recruit">
+      <div class = "stitle">Recruit</div>
+      <div class = "container">
+        <div class="linecontent2">
+        <div class="col-md-12 col-sm-12   col-xs-12">
+          <table>
+          <tbody>
+            <tr>
+              <th>応募資格</th>
+              <td>​【歓迎スキル・経験】学歴不問（中卒や高卒等も可）<br>
+                デジタルマーケや広告・プログラミングに関わる基本的な知識をお持ちの方 ※　未経験も歓迎です。
+              </td>
+            </tr>
+            <tr>
+              <th>雇用形態</th>
+              <td>正社員/インターンシップ</td>
+            </tr>
+            <tr>
+              <th>初任給</th>
+              <td>営業月給：　30万円〜  　 エンジニア月給：　35万〜<br>
+                  ※　インターンシップについてはご相談ください。<br>
+                  ※　能力に応じて給与変動</td>
+            </tr>
+            <tr>
+              <th>勤務地</th>
+              <td>
+              東京都渋谷区桜丘町29-24　秀和桜丘502<br>
+              ※　渋谷駅徒歩5分
+              </td>
+            </tr>
+            <tr>
+              <th>勤務時間</th>
+              <td>所定労働時間10:00～19:00<br>※　フレックスタイム制度あり<br>コアタイム 11:00〜16:00</td>
+            </tr>
+          </tbody>
+          <tr>
+              <th>エンジニア募集</th>
+              <td>ネイティヴアプリ開発（Swift,Java,Cocos2d-x,Unity等）<br>
+                  サーバーサイド（Ruby on RailsやPythonなど）</td>
+            </tr>
+             <tr>
+              <th>総合職募集</th>
+              <td>営業（広告やコンテンツ）<br>
+                  新規事業企画・UI/UXデザイン・グラフィックデザイン</td>
+            </tr>
+            <tr>
+              <th>応募について</th>
+              <td>下記メールに応募ください。<br>
+                  <a href="mailto:info@example.com?subject=問い合わせ&amp;body=ご記入ください">info@fig-leaves.bz
+                  </a><br>
+                  ※　職歴、スキルをご記入の上、メールください。
+                  </td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+  </div>
+</div>    
+</section>
+
+
+<iframe class="googlemap"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2629.7409905268614!2d139.69970429867732!3d35.65435182046143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b572aaad2b1%3A0xfef656e7ec571a7d!2z44CSMTUwLTAwMzEg5p2x5Lqs6YO95riL6LC35Yy65qGc5LiY55S677yS77yZIOengOWSjOahnOS4mOODrOOCuOODh-ODs-OCuQ!5e0!3m2!1sja!2sjp!4v1447762959085" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen>
+</iframe>
+
+<!--Image-->
+ <p class = "textani">Live everyday as if it were all up today.</p> 
+<div>
+  <img class = "imageview" src="./picture/WhatsNext.png"> 
+</img>
+
+</div>
+
+<footer class="footer">
+  <div class ="slabel"><span class="glyphicon glyphicon-scissors" aria-hidden="true"></span></div>
+  <div id ="appearme"></div>
+<div><img class = " flogo" src="./picture/fig.png" alt=""></img></div>
+    <div class="container">
+
+        <div class="row upper-section">
+            <div class="col-xs-12 col-sm-4 col-md-3">
+                <div class = "ftop">FIG LEAVES</div>
+                <ul class="footernav">
+                    <li class="button hvr-buzz-out"><a class ="flink1" href=""> <span class="glyphicon glyphicon-fire" aria-hidden="true"></span>Service</a></li>
+                    <li class="button hvr-buzz-out"><a class ="flink2" href=""><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Staff</a></li>
+                    <li class="button hvr-buzz-out"><a class ="flink3" href="#recruit"><span class="glyphicon glyphicon-leaf" aria-hidden="true"></span> Recruit</a></li>
+                    <li class="button hvr-buzz-out"><a class ="flink5" href="mailto:info@example.com?subject=問い合わせ&amp;body=ご記入ください"><span class="glyphicon glyphicon-tint" aria-hidden="true"></span> Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-3">
+
+                <div class = "ftop">BLOGS</div>
+                <ul class="footernav">
+                    <li class="button hvr-buzz-out"><a class ="flink6" href="http://fig-leaves.bz/blog"><span class="glyphicon glyphicon-send" aria-hidden="true"> FigLeaves Blog</a></li>
+                    <li class="button hvr-buzz-out"><a class ="flink7" href="http://yoshiaki-figleaves.hatenablog.com"><span class="glyphicon glyphicon-knight" aria-hidden="true"> Yoshua Dilham Kishi Blog</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-3">
+                <div class = "ftop">RECRUIT</div>
+                <ul class="footernav">
+                   <li class="button hvr-buzz-out"><a class ="flink8" href="#recruit"><span class="glyphicon glyphicon-time" aria-hidden="true"> recruit</span></a></li>
+                </ul>
+
+            </div>
+            <div class="col-xs-12 col-sm-4 col-sm-offset-8 col-md-3 col-md-offset-0">
+               <dl class="follow">
+                  <dt class = "followus">FOLLOW US</dt>
+                  <dd>
+                      <div class="social">
+                        <a href="https://www.facebook.com/FigLeaves.bz" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-2x"></i></a>
+                        <a href="https://twitter.com/FigLeaves_inc" class="scrollpoint sp-effect3">
+                          <i class="fa fa-twitter fa-2x"></i></a>
+                     </div>
+                  </dd>
+                </dl>
+            </div>
+        </div>
+        <div class="container">
+         <ul class="list-inline bottom-section">
+            <li class = "create">Creats future have never existed today.</li>
+            <li class = "copyright">Copyright 2015-2016 Fig Leaves, Inc.</li>
+          </ul>
+       </div>
+    </div>
+</footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>

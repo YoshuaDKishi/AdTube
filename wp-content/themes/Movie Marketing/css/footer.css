@@ -1,0 +1,235 @@
+/*フッターのデザイン*/
+.footer {
+	position: relative;
+	width: 100%;
+	text-align: center;
+    padding-bottom: 15px;
+    background: #393f48;
+    border-top: 2px dotted #FF00FF;
+}
+
+.slabel{
+	position: absolute;
+	color: #00FF00;
+	width: 25px;
+	height: 25px;
+	top:-7px;
+	left: 50px;
+}
+
+.footernav{
+	list-style:none;
+	color: #220000;
+	text-align: center;
+	margin-right: 35px;
+}
+
+.flogo{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 96px;
+	height: 65px;
+}
+
+.ftop{
+	color: white;
+	font-size: 24px;
+   
+}
+.large{
+        font-size: 320%;
+        color:white;
+}
+.ftop:hover {
+	 color: #03c;
+	 text-align: center;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left, #f69, #fc0, #3c3, #09f, #96f);
+    background-image: -moz-linear-gradient(left, #f69, #fc0, #3c3, #09f, #96f);
+    background-image: -o-linear-gradient(left, #f69, #fc0, #3c3, #09f, #96f);
+    background-image: -ms-linear-gradient(left, #f69, #fc0, #3c3, #09f, #96f);
+}
+
+
+.flink1{
+	color: white;
+	font-size: 12px;
+	text-decoration: none; 
+}
+.flink1:hover{
+	color:#FF0000;
+	text-decoration: none; 
+}
+
+.flink2{
+	color: white;
+	font-size: 12px;
+	text-decoration: none; 
+}
+.flink2:hover{
+	color:#FFFF55;
+	text-decoration: none; 
+}
+.flink3{
+	color: white;
+	font-size: 12px;
+	text-decoration: none; 
+}
+.flink3:hover{
+	color:#2DFF57;
+	text-decoration: none; 
+}
+
+.flink4{
+	color: white;
+	font-size: 12px;
+	text-decoration: none; 
+}
+.flink4:hover{
+	color:#32EEFF;
+	text-decoration: none; 
+}
+.flink5{
+	color: white;
+	font-size: 12px;
+	text-decoration: none; 
+}
+
+.flink5:hover{
+	color:#7B3CFF;
+	text-decoration: none; 
+}
+
+.flink6{
+	color: white;
+	font-size: 12px;
+	text-decoration: none; 
+}
+
+.flink6:hover{
+	color:#FF66FF;
+	text-decoration: none; 
+}
+.flink7{
+	color: white;
+	font-size: 12px;
+	text-decoration: none; 
+}
+
+.flink7:hover{
+	color:#FFDAB9;
+	text-decoration: none; 
+}
+.flink8{
+	color: white;
+	font-size: 12px;
+	text-decoration: none; 
+}
+
+.flink8:hover{
+	color:#00CED1;
+	text-decoration: none; 
+}
+.flink9{
+	color: white;
+	font-size: 12px;
+	text-decoration: none; 
+}
+
+.flink9:hover{
+	color:#FFD700;
+	text-decoration: none; 
+}
+.follow{
+	margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    /* font-size: 100%; */
+    /* font-weight: normal; */
+    /* vertical-align: baseline; */
+    vertical-align: middle;
+    background: transparent;
+}
+.dt{
+	display: block;
+}
+
+.followus{
+	color:white;
+	font-size: 20px;
+}
+.followus:hover {
+	 color: #03c;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left, #f69, #fc0, #3c3, #09f, #96f);
+    background-image: -moz-linear-gradient(left, #f69, #fc0, #3c3, #09f, #96f);
+    background-image: -o-linear-gradient(left, #f69, #fc0, #3c3, #09f, #96f);
+    background-image: -ms-linear-gradient(left, #f69, #fc0, #3c3, #09f, #96f);
+}
+dl {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.scrollpoint.active {
+    opacity: 1 \0;
+}
+
+.fa-facebook {
+    width: 40px;
+    height: 40px;
+}
+
+.fa-twitter{
+    width: 50px;
+    height: 50px;
+}
+
+.fa  {
+ content: "\f082";
+ color: white;
+}
+.fa-facebook:hover{
+	color:#0088cc;
+
+}
+.fa-twitter:hover{
+	color:#00BFFF;
+
+}
+
+
+.teamblog
+
+#fblog{
+	font-size: 20px;
+	color: white;
+}
+
+.bottom-section{
+	width: 100%;
+	text-align: center;
+}
+.create{
+	color: white;
+}
+.copyright{
+	color:white;
+	}
