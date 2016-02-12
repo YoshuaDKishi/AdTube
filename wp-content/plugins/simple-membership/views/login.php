@@ -18,7 +18,7 @@
                 <span class="swpm-rember-label"> <?php echo  SwpmUtils::_('Remember Me') ?></span>
             </div>
             <div class="swpm-login-submit">
-                <input type="submit" class="swpm-login-form-submit" name="swpm-login" value="<?php echo  SwpmUtils::_('Login') ?>"/>
+                <input type="submit" class="swpm-login-form-submit" name="swpm-login" value="ログインする"/>
             </div>
             <div class="swpm-forgot-pass-link">
                 <a id="forgot_pass" class="swpm-login-form-pw-reset-link"  href="<?php echo  $password_reset_url; ?>"><?php echo  SwpmUtils::_('Forgot Password') ?>?</a>

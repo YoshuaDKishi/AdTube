@@ -1,0 +1,112 @@
+#logtop {
+    right: 0;
+    top:0px;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    height:300px;
+
+}
+
+#logImage{
+ 	position: relative;
+    margin-right: 60px;
+    margin-left: 10px;
+    overflow: hidden;
+    display: block;
+    z-index: 0;
+    border: 1px solid white;
+    margin-top: -200px;
+
+}
+div#logCatch {
+ 	position: relative;
+    top:250px;
+    color: #FFF;
+    text-shadow: 0 1px 0 #000;
+    width:100%;    background-color: violet;
+    opacity: 0.9;
+    height: 110px;
+    z-index: 1;
+    display: block;
+
+
+}
+
+
+
+div#logCatch p {
+    width:960px;
+    margin:0px auto;
+    line-height:normal;
+    overflow: hidden;
+}
+div#logCatch p.large {
+    font-size: 700%;
+    font-family: 'arial', cursive;
+    letter-spacing:0.02em;
+}
+div#altVideo {
+    display:none;
+}
+
+.sp_menu {
+    display:none;
+}
+
+div#logCatch p..smaller{
+    margin-top: 10px;
+    font-size: 100%;
+
+}
+
+
+
+.logContentblock{
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+
+
+
+.logContent{
+	float: left;
+	overflow: hidden;
+	border: 1px solid #e1e1e1;
+	box-shadow: 0 3px 0 rgba(8, 1, 2, 0.03);
+	margin-right: 10px;
+	margin-left: 15px;
+
+	padding-left: 5px;
+	display: block;
+	margin-bottom: 60px;
+	width: 48%;
+	background-color: white;
+	padding-bottom: 10px;
+  } 
+
+.logContent2{
+	overflow: hidden;
+	border: 1px solid #e1e1e1;
+	box-shadow: 0 3px 0 rgba(8, 1, 2, 0.03);
+	margin-right: 10px;
+	margin-left: 15px;
+	padding-left: 5px;
+	display: block;
+	margin-bottom: 60px;
+	width: 48%;
+	background-color: white;
+	margin-top:0px;
+	padding-bottom: 10px;
+  }
+
+.swpm-registration-submit{
+	background-color: violet;
+	color: white
+}
+.swpm-login-form-submit{
+	background-color: violet;
+	color: white
+}

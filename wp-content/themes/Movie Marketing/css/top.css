@@ -35,12 +35,6 @@ body{
 }
 
 
-video{
-	position: relative;
-    text-align: center;
-    width: 100%;
-    z-index: -1;
-}
 
 .videodot:after {
 	margin-top: -10px;
@@ -76,213 +70,63 @@ video{
 #wrap {
     width: 100%;
     line-height: 1.6;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-right: 60px;
+    margin-top: 25px;
     text-align: center;
     font-size: 12px;
     font-size: 1.2rem;
     z-index: 2;
 
 }
-/* Service*/
-.stitle{
-    text-align: center;
-    font-size: 3.6rem;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-#services {
-    position: relative;
-    padding-top: 20px;
-    margin-top: 40px;
-    padding-bottom: 30px;
-}
-
-#staff {
-    position: relative;
-    padding-top: 40px;
-    margin-top: 40px;
-    padding-bottom: 30px;
-}
-
-#company {
-    position: relative;
-    padding-top: 40px;
-    margin-top: 40px;
-    padding-bottom: 30px;
-}
-
-#recruit {
-    position: relative;
-    padding-top: 40px;
-    margin-top: 40px;
-    padding-bottom: 30px;
-}
-
-
-.table{
-	padding-bottom: 10px;
-	margin-right: 10px;
-}
-
-.sho{
-	width: 90%;
-	height: 100%;	
-	padding-top: 20px;
-	padding-bottom: 20px;
-	margin-top: 40px;
-	background:white;
-    border-top: 1px solid #222222;
-    color:#111;
-  }
-
-.section-heading h1 {
-    display: block;
-    text-align: center;
-    font-size: 2em;
-    margin-top: 10px;
-    font-weight: 300;
-    margin-bottom: 0;
-    color: #999999;
-}
-
-.stext{
-	display: block;
-	text-align: center;
-	-webkit-transition: all .3s;
-  	transition: all .3s;
-  	margin:10px,10px,10px,10px;
-  	font-size: 1em;
-}
-.sicon1{
-	display: block;
-	text-align: center;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-.sicon1:hover{
-	color:#005FFF;
-}
-
-
-.section-heading h2 {
-    display: block;
-    text-align: center;
-    font-size: 2em;
-    margin-top: 10px;
-    font-weight: 300;
-    margin-bottom: 0;
-    color: #999999;
-}
-
-.sicon2{
-	display: block;
-	text-align: center;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-right: auto;
-	margin-left: auto;
-}
-.sicon2:hover{
-	color:#FF69B4;
-}
-/* News*/
-.section-heading h3 {
-    display: block;
-    text-align: center;
-    font-size: 2em;
-    margin-top: 10px;
-    font-weight: 300;
-    margin-bottom: 0;
-    color: #999999;
-}
-
-.section-heading h4 {
-    display: block;
-    text-align: center;
-    font-size: 2em;
-    margin-top: 10px;
-    font-weight: 300;å
-    margin-bottom: 0;
-    color: #999999;
-}
-
-.sicon3{
-	display: block;
-	text-align: center;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-right: auto;
-	margin-left: auto;
-}
-.sicon3:hover{
-	color:#FF0000;
-}
-
-.staffview{
-	width: 100%;
-	max-height: 400px;
-	margin-top: 0;
-	z-index: 2;
-	overflow: hidden;
-}
-
-
-.ieffect{
-
-	width: 100%;
-	height: 80%;
-	margin-top: 0;
-	z-index: 2;
-}
-
-
-.faceb{
-
-    text-align: center;
-}
-
-
 
 
 
 
 /* top video */
+@media screen and (min-width: 1180px) and (max-width: 2200px){
 video {
     right: 0;
-    top:10px;
+    top:0px;
     bottom: 0;
     width: 100%;
-
+    overflow: hidden;
+    display: block;
+    position: relative;
 
 
 }
 
 #mainimage{
+  position: relative;
     margin-right: 60px;
     margin-left: 10px;
+    overflow: hidden;
+    display: block;
+    z-index: 0;
+    border: 1px solid white;
+    margin-top: -200px;
 
 }
-
 div#catch {
-    position:absolute;
-    top:120px;
+  position: relative;
+    top:360px;
     color: #FFF;
     text-shadow: 0 1px 0 #000;
-    width:92.3%;
-    background-color: violet;
+    width:100%;    background-color: violet;
     opacity: 0.9;
     height: 250px;
+    z-index: 1;
+    display: block;
+
+
 }
 
 div#catch p {
     width:960px;
     margin:0px auto;
     line-height:normal;
+    overflow: hidden;
 }
 div#catch p.large {
     font-size: 700%;
@@ -302,6 +146,73 @@ div#catch p..smaller{
     font-size: 100%;
 
 }
+}
+
+@media screen and (min-width: 960px) and (max-width: 1180px){
+video {
+    right: 0;
+    top:0px;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    position: relative;
+
+
+}
+
+#mainimage{
+  position: relative;
+    margin-right: 60px;
+    margin-left: 10px;
+    overflow: hidden;
+    display: block;
+    z-index: 0;
+    border: 1px solid white;
+    margin-top: -200px;
+
+}
+div#catch {
+  position: relative;
+    top:360px;
+    color: #FFF;
+    text-shadow: 0 1px 0 #000;
+    width:100%;    background-color: violet;
+    opacity: 0.9;
+    height: 250px;
+    z-index: 1;
+    display: block;
+
+
+}
+
+div#catch p {
+    width:960px;
+    margin:0px auto;
+    line-height:normal;
+    overflow: hidden;
+}
+div#catch p.large {
+    font-size: 700%;
+    font-family: 'arial', cursive;
+    letter-spacing:0.02em;
+    overflow: hidden;
+}
+div#altVideo {
+    display:none;
+}
+
+.sp_menu {
+    display:none;
+}
+
+div#catch p..smaller{
+    margin-top: 10px;
+    font-size: 100%;
+
+}
+}
+
 
 /* 960以下 */ 
 @media screen and (max-width: 960px) {
@@ -419,23 +330,13 @@ div#catch p..smaller{
   display: block;
   text-align: center;
   max-width: 100%;
-  height: 300px;
 
   margin-right: 7px;
   margin-left: 3px;
 
   margin-bottom: 15px;
   margin-top: 15px;
-    background-color: white;
-    border-top: #333333;
-    border-left:4px white;
-    border-top: #333333;
-    border-bottom:4px #333333;
-
-    color: #364347;
-    -webkit-box-shadow: inset 7px 17px 7px 7px  rgba(0,0,0,0.05);
-  overflow: hidden;
-    box-shadow: inset -1px -1px 1px -2px rgba(0,0,0,0.05);
+  padding-bottom: -175px
 
 }
 .boxdesign:hover{
@@ -448,8 +349,7 @@ div#catch p..smaller{
 }
 .thumbnail{
    width: 300px;
-   height: 180px;
-   padding-left: 4px;
+   height: 160px;
    z-index: -1;
    overflow: hidden;
      -webkit-box-sizing: border-box; /* Webkit系用 */
@@ -459,9 +359,8 @@ box-sizing: border-box;           /* 標準 */
 
 .count-section {
   position: absolute;
-  top: 140px;
-  right:-5px;
-  left: -2px;
+  top: 110px;
+
   z-index: 1;
   width: 100%;
 }
@@ -473,14 +372,14 @@ box-sizing: border-box;           /* 標準 */
   color: white;
   background: #222222;
   opacity: 0.9;
-  font-size: 0.21rem;
-  padding-top: 7px;
-  padding-left: 140px;
-  padding-right: 220px;
-  padding-bottom: 7px;
-
+  font-size: 1.2rem;
+  padding-top: 10px;
+  padding-left: 70px;
+  padding-right: 60px;
+  padding-bottom: 8px;
+  display: block;
   text-transform: uppercase;
-  overflow:auto;
+  overflow:hidden;
 }
 }
 
@@ -536,8 +435,8 @@ box-sizing: border-box;           /* 標準 */
   opacity: 0.9;
   font-size: 0.21rem;
    padding-top: 7px;
-  padding-left: 220px;
-  padding-right: 160px;
+
+
   padding-bottom: 7px;
 
   width: 450px;

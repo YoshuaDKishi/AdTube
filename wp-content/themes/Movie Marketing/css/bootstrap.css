@@ -108,14 +108,22 @@ samp {
   font-family: monospace, monospace;
   font-size: 1em;
 }
-button,
+
 input,
-optgroup,
-select,
 textarea {
   margin: 0;
   font: inherit;
   color: inherit;
+      -moz-border-radius: 20px;    /* 古いFirefox */
+    -webkit-border-radius: 20px; /* 古いSafari,Chrome */
+    border-radius: 20px;         /* CSS3 */
+
+    border: 1px #c0c0c0 solid;     /* 枠線の装飾 */
+    opacity: 0.8;
+    background-color: white;   /* 背景色 */
+}
+
+
 }
 button {
   overflow: visible;
@@ -1069,6 +1077,7 @@ th {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
+
 }
 *:before,
 *:after {
@@ -1117,8 +1126,7 @@ img {
   vertical-align: middle;
 }
 .img-responsive,
-.thumbnail > img,
-.thumbnail a > img,
+
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
@@ -2471,8 +2479,14 @@ legend {
 label {
   display: inline-block;
   max-width: 100%;
-  margin-bottom: 5px;
+
 }
+
+#swpm-registration-form label{
+  margin-bottom: 12px;
+  margin-top: 5px;
+}
+
 input[type="search"] {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -4179,6 +4193,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   min-height: 50px;
   border: 1px solid transparent;
+  margin-bottom: -200px;
 }
 @media (min-width: 768px) {
   .navbar {
@@ -5020,32 +5035,8 @@ a.badge:focus {
     font-size: 63px;
   }
 }
-.thumbnail {
-  display: block;
-  padding: 4px;
-  margin-bottom: 20px;
-  line-height: 1.42857143;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  -webkit-transition: border .2s ease-in-out;
-       -o-transition: border .2s ease-in-out;
-          transition: border .2s ease-in-out;
-}
-.thumbnail > img,
-.thumbnail a > img {
-  margin-right: auto;
-  margin-left: auto;
-}
-a.thumbnail:hover,
-a.thumbnail:focus,
-a.thumbnail.active {
-  border-color: #337ab7;
-}
-.thumbnail .caption {
-  padding: 9px;
-  color: #333;
-}
+
+
 .alert {
   padding: 15px;
   margin-bottom: 20px;

@@ -107,14 +107,15 @@ $(function() {
             <span class = "icon-bar"></span>
             <span class = "icon-bar"></span>
           </button>
-         <a class = "navbar-brand" href="FigLeaves.html">AdTube</a>
+         <a class = "navbar-brand" href="index.php">AdTube</a>
         </div>
          
           <div id="menubar"  class ="collapse navbar-collapse target">
             <ul id="mainmenu" class = "nav navbar-nav" >
               <li class ="button hvr-buzz-out"><a href="#">動画を探す</a></li>
               <li class ="button hvr-buzz-out"><a href="#">AdTuberになる</a></li>
-              <li class ="button hvr-buzz-out"><a href="">ログイン</a></li>
+              <li class ="button hvr-buzz-out"><a href="#">企業の方はコチラ</a></li>
+              <li class ="button hvr-buzz-out"><a href="<?php echo get_home_url(); ?>/loginform">ログイン</a></li>
               <li>
                  <form role="search" method="get" id="searchForm" action="<?php echo home_url( '/' ); ?>">
             <fieldset>

@@ -2263,7 +2263,7 @@
 .hvr-ripple-out:before {
   content: '';
   position: absolute;
-  border: #e1e1e1 solid 6px;
+  border: #ff00ff solid 0.1px;
   top: 0;
   right: 0;
   bottom: 0;

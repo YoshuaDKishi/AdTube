@@ -95,6 +95,15 @@
 .swpm-registration-widget-form td{
     min-width: 100px;
 }
+td input#user_name{
+    -moz-border-radius: 20px;    /* 古いFirefox */
+    -webkit-border-radius: 20px; /* 古いSafari,Chrome */
+    border-radius: 20px;         /* CSS3 */
+
+    border: 3px green solid;     /* 枠線の装飾 */
+    background-color: #ccffcc;   /* 背景色 */
+}
+
 
 .swpm-registration-widget-form input[type="text"], .swpm-registration-widget-form input[type="password"]{
     width: 95%;

@@ -1,8 +1,6 @@
 <?php
  get_header(); ?>
 
-
-
 <div id="wrap">
   <div id="mainimage">
     <div id="catch">
@@ -36,12 +34,9 @@
 
 
 
-<div id="content" class="sitedesign">
+<div class="sitedesign">
 
  <div class ="contentblock">
-
-
-    
       <div class="col-md-12">
         <center>
         <h2> <?php echo $cat_name = get_the_category_by_ID( 22 ); ?></h2>
@@ -51,7 +46,7 @@
 
 
       <div class="entry-content">
-        <ul id="event"> 
+        <ul id="event" class="col-md-9 col-sm-9 col-xs-12"> 
         <?php 
         $myposts = getPostByCatId(22, 3);
         foreach ( $myposts as $post ) : setup_postdata( $post )  ;  
@@ -66,9 +61,7 @@
                   ?>            
                     <div class="count-section">
                       <div class="pvcount">
-                          <?php if(function_exists('the_views')) {
-                            the_views();
-                          } ?>
+                          <?php the_title(); ?>
                       </div>
                       <!--pvcount-->
                     </div>
@@ -77,31 +70,25 @@
                 </div>
                 <!--thumbnail-->
               </div>
-                <!--col-md-12 col-sm-12 col-xs-12-->
-
-                <div class="col-md-12 col-sm-12 col-xs-12 fontclass" ><?php the_title(); ?></div>
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                  <div class="excerpt">
-                    <?php the_excerpt(); ?>
-                  </div>
-                   <!--exerpt-->
-        <?php  wp_reset_postdata();
+                <!--col-md-12 col-sm-12 col-xs-12-->        
+      <?php  wp_reset_postdata();
       endforeach; ?>
-                </div>
-
-                <!--col-md-12 col-sm-12 col-xs-12-->
-            
-           
+       
           </li>
 
         </a>   
       </ul>
-       
       <!--event-->
+      <ul class="col-md-2 col-sm-2 col-xs-12">
+              <?php get_sidebar(); ?>
+      </ul>
+
+        
+      
 
 
       <div class="col-md-12 col-sm-12 col-xs-12" >
-        <a href="<?php echo get_home_url(); ?>/Movie/articleall?id=<?php echo $category->cat_ID ?>">
+        <a href="<?php echo get_home_url(); ?>/Movie Marketing/articleall?id=<?php echo $myposts->cat_ID ?>">
           <div class="ripple">
             
             このカテゴリの動画を全て見る＞＞＞＞
@@ -112,11 +99,22 @@
         </a> 
       </div>
       <!--col-md-12 col-sm-12 col-xs-12-->
+
+  
+        
+
       </div>
       <!--entrycontent-->
-      </div>
+    </div>
   <!--contentblock-->
-<div class ="contentblock">
+
+</div>
+
+
+
+
+<div class="sitedesign">
+<div class ="contentblock2">
 
 
     
@@ -128,56 +126,51 @@
       <!--col-md-12-->
 
 
-      <div class="entry-content">
+      <div class="entry-content ">
         <ul id="event"> 
-        <?php 
-                        $myposts = getPostByCatId(23, 3);
-                        foreach ( $myposts as $post ) : setup_postdata( $post )  ;  
-                        ?> 
+          <?php 
+          $myposts = getPostByCatId(23, 3);
+          foreach ( $myposts as $post ) : setup_postdata( $post )  ;  
+          ?> 
           <a href="<?php the_permalink() ?>">
             <li class="boxdesign hvr-ripple-out">  
 
                 <div class="col-md-12 col-sm-12 col-xs-12">
                         
                     <div class="thumbnail">
-                      <?php
-                      $image_id = get_post_thumbnail_id();
-                      $image_url = wp_get_attachment_image_src($image_id, true);
-                      ?>            
-                        <div class="count-section">
-                          <div class="pvcount">
-                              <?php if(function_exists('the_views')) {
-                                the_views();
-                              } ?>
-                          </div>
-                          <!--pvcount-->
-                        </div>
-                        <!--count-section-->
-                      <img src="<?php echo $image_url[0]; ?>">
+                       <?php
+                  $image_id = get_post_thumbnail_id();
+                  $image_url = wp_get_attachment_image_src($image_id, true);
+                  ?>            
+                    <div class="count-section">
+                      <div class="pvcount">
+                          <?php the_title(); ?>
+                      </div>
+                      <!--pvcount-->
                     </div>
-                <!--thumbnail-->
+                    <!--count-section-->
+                  <img src="<?php echo $image_url[0]; ?>">
                 </div>
+                <!--thumbnail-->
+              </div>
                 <!--col-md-12 col-sm-12 col-xs-12-->
 
-                <div class="col-md-12 col-sm-12 col-xs-12 fontclass" ><?php the_title(); ?></div>
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                  <div class="excerpt">
-                    <?php the_excerpt(); ?>
-                  </div>
-                   <!--exerpt-->
-                 <?php  wp_reset_postdata();
-                  endforeach; ?>
-                </div>
-                <!--col-md-12 col-sm-12 col-xs-12-->
+                
+               
+        <?php  wp_reset_postdata();
+      endforeach; ?>
             </li>
         </a>   
       </ul>
-       
       <!--event-->
+<ul class="col-md-2 col-sm-2 col-xs-12">
+              <?php get_sidebar(); ?>
+      </ul>
 
 
       <div class="col-md-12 col-sm-12 col-xs-12" >
-        <a href="<?php echo get_home_url(); ?>/Movie/articleall?id=<?php echo $category->cat_ID ?>">
+
+        <a href="<?php echo get_home_url(); ?>/Movie Marketing/articleall?id=23">
           <div class="ripple">
             
             このカテゴリの動画を全て見る＞＞
@@ -185,14 +178,15 @@
           <span class="ripple__effect is-orange"> </span>
           </div> 
           <!--ripple-->
+
         </a> 
       </div>
-      <!--col-md-12 col-sm-12 col-xs-12-->
-      </div>
-      <!--entrycontent-->
-      </div>
+        <!--col-md-12 col-sm-12 col-xs-12-->
+    </div>
+        <!--entrycontent-->
+        
+  </div>
   <!--contentblock-->
-
 
 
 </div>
