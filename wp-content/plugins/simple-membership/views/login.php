@@ -2,7 +2,7 @@
     <form id="swpm-login-form" name="swpm-login-form" method="post" action="">
         <div class="swpm-login-form-inner">
             <div class="swpm-username-label">
-                <label for="swpm_user_name" class="swpm-label"><?php echo  SwpmUtils::_('Username') ?></label>
+                <label for="swpm_user_name" class="swpm-label">登録のアドレスを入力</label>
             </div>
             <div class="swpm-username-input">
                 <input type="text" class="swpm-text-field swpm-username-field" id="swpm_user_name" value="" size="25" name="swpm_user_name" />
