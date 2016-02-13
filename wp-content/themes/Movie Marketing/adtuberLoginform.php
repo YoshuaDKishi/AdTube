@@ -1,7 +1,7 @@
 
 <?php
 /*
-Template Name: loginform Template
+Template Name: Adtuberlogin Template
 */
 ?>
 
@@ -13,8 +13,8 @@ Template Name: loginform Template
 <div id="wrap">
   <div id="logImage">
     <div id="logCatch">
-      <p class="logLarge">成果報酬型YoutuberASP</p>
-      <p class="logSmaller"></p>
+      <p class="logLarge">企業の商品を宣伝してお金を稼ごう！</p>
+      <p class="logSmaller">会員登録をして商品を探そう！</p>
     <div id="container">
         <div id="main">
 
@@ -38,10 +38,10 @@ Template Name: loginform Template
 		<div class="entry-content">
 			<div class="col-md-12">
 	        <center>
-	        <h2>会員登録はこちら！</h2>
+	        <h2>Adtuberのご登録はこちら</h2>
 	        </center>
 	     </div>
-		<?php echo do_shortcode( '[swpm_registration_form level=5]'); ?>
+		<?php echo do_shortcode( '[swpm_registration_form level=3]'); ?>
 		</div>
 
 
@@ -51,11 +51,11 @@ Template Name: loginform Template
 	<div class="entry-content">
 		<div class="col-md-12">
         	<center>
-        	<h3> ログインはこちら</h3>
+        	<h3>ログインはこちら</h3>
         	</center>
       	</div>
 
-		<?php echo do_shortcode( '[swpm_login_form level=5]'); ?>
+		<?php echo do_shortcode( '[swpm_login_form level=3]'); ?>
 
 	</div>
 		
@@ -71,6 +71,7 @@ Template Name: loginform Template
         	</center>
       	</div>
 
+      	
 
 
      </div>

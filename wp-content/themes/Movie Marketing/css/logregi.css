@@ -43,8 +43,8 @@ div#logCatch p {
     line-height:normal;
     overflow: hidden;
 }
-div#logCatch p.large {
-    font-size: 700%;
+div#logCatch p.logLarge {
+    font-size: 340%;
     font-family: 'arial', cursive;
     letter-spacing:0.02em;
 }
@@ -56,7 +56,7 @@ div#altVideo {
     display:none;
 }
 
-div#logCatch p..smaller{
+div#logCatch p..logSmaller{
     margin-top: 10px;
     font-size: 100%;
 

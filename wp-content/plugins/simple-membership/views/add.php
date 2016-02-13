@@ -30,7 +30,7 @@
         <div class="swpm-before-registration-submit-section" align="center"><?php echo apply_filters('swpm_before_registration_submit_button', ''); ?></div>
         
         <div class="swpm-registration-submit-section" align="center">
-            <input type="submit" value="AdTuber登録をする" class="swpm-registration-submit" name="swpm_registration_submit" style="font-size:16px;"/>
+            <input type="submit" value="登録をする" class="swpm-registration-submit" name="swpm_registration_submit" style="font-size:16px;"/>
         </div>
         
         <input type="hidden" name="action" value="custom_posts" />

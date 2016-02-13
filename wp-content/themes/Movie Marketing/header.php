@@ -10,6 +10,9 @@ Template Name: header Template
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" itemprop="description" content="Youtuberを活用したネイティヴ広告のASPサービス！ " />
+    <meta name="keywords" itemprop="keywords" content="ASP,Yotuber,広告,ネイティヴアド,アフィリエイト,面白動画,Youtuberまとめ " />
+
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=yes">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>AdTube</title>
@@ -107,15 +110,14 @@ $(function() {
             <span class = "icon-bar"></span>
             <span class = "icon-bar"></span>
           </button>
-         <a class = "navbar-brand" href="index.php">AdTube</a>
+         <a class = "navbar-brand" href="<?php echo get_home_url(); ?>">AdTube</a>
         </div>
          
           <div id="menubar"  class ="collapse navbar-collapse target">
             <ul id="mainmenu" class = "nav navbar-nav" >
               <li class ="button hvr-buzz-out"><a href="#">動画を探す</a></li>
-              <li class ="button hvr-buzz-out"><a href="#">AdTuberになる</a></li>
-              <li class ="button hvr-buzz-out"><a href="#">企業の方はコチラ</a></li>
-              <li class ="button hvr-buzz-out"><a href="<?php echo get_home_url(); ?>/loginform">ログイン</a></li>
+              <li class ="button hvr-buzz-out"><a href="<?php echo get_home_url(); ?>/adtuberLoginform">AdTuberはこちら</a></li>
+              <li class ="button hvr-buzz-out"><a href="<?php echo get_home_url(); ?>/loginform">企業の方はコチラ</a></li>
               <li>
                  <form role="search" method="get" id="searchForm" action="<?php echo home_url( '/' ); ?>">
             <fieldset>

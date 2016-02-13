@@ -88,7 +88,7 @@
 
 
       <div class="col-md-12 col-sm-12 col-xs-12" >
-        <a href="<?php echo get_home_url(); ?>/Movie Marketing/articleall?id=<?php echo $myposts->cat_ID ?>">
+        <a href="<?php echo get_home_url(); ?>/Movie Marketing/articleall?id=22">
           <div class="ripple">
             
             このカテゴリの動画を全て見る＞＞＞＞
