@@ -21,16 +21,16 @@ Template Name: articleall Template
 
 <div id="content" class="allsitedesign">
 	<center>
-		<h2 class="entry-title">全ての動画</h2>
+		<h2 class="entry-title">おすすめのコンテンツ</h2>
 	</center>
-<div class="topcontent">
-
+<div class="topcontent col-md-12 col-sm-12 col-xs-12">
+	<div
 </div>
 
 
 	<div class="contentblock">
 		<div class="entry-content">
-			<ul id="event"> 
+			<ul id="event" class="col-md-9 col-sm-9 col-xs-12"> 
 
 				<?php $myposts = getPostByCatId($articleall, -1); ?>
 				<?php foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
@@ -55,7 +55,7 @@ Template Name: articleall Template
 								</div>
 
 							</div>
-							</div>
+					</div>
 				
 					
 					</a>
@@ -68,7 +68,10 @@ Template Name: articleall Template
 			</li>
 
 		</ul>
-
+		<ul class="col-md-3 col-sm-3 col-xs-12">
+			<?php
+			get_sidebar(); ?>
+		</ul>
 
 
 	</div>
