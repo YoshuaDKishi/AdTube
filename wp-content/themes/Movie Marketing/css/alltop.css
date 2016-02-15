@@ -1,7 +1,21 @@
 .alltopsitedesign{
-	background-color: #F4F4F4;
+	background-color:#f8f8ff;
   	height: 100%;
   	display: table-row-group;
+}
+
+
+.alltopsitedesign{
+	background-color:#f8f8ff;
+  	height: 100%;
+  	padding-top: 
+
+}
+
+.contentblocks{
+
+  margin-top: 100px;
+
 }
 
 .contentblockx{
@@ -11,15 +25,85 @@
   margin-right: auto;
   margin-bottom: 50px;
   padding-bottom: 10px;
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 .topthumbnail{
-   width: 480px;
-   height: 270px;
+   width: 450px;
+   height: 240px;
    z-index: -1;
    overflow: hidden;
      -webkit-box-sizing: border-box; /* Webkit系用 */
 -moz-box-sizing: border-box;     /* Firefox用 */
 box-sizing: border-box;           /* 標準 */
 }
+
+
+.filback{
+	background-color: #7B003E
+}
+
+.filcontainer{
+	 max-width: 2200px;
+    height: 210px;
+    margin-top: 60px;
+    margin-right: 50px;
+    margin-left:50px;
+
+}
+.all-title {
+    color: white;
+    font-size: 1.3em;
+    font-weight: 190;
+    padding: 8px 0px 7px;
+    line-height: 1.7em;
+
+
+}
+.lime {
+    clear: both;
+}
+
+.lime .dividerLine {
+    margin-right: 2px;
+    margin-top: 10px;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
+
+.genreTitle a{
+	color: white;
+	font-size: 1em;
+}
+.genreTitle a:hover{
+	color:  #fff8ea;
+}
+
+.tuberTitle a{
+	color: white;
+	font-size: 1em;
+}
+
+.tuberTitle a:hover{
+	color:  #fff8ea;
+}
+
+
+ul{
+	list-style:none;
+}
+
+
+
+.catTitle{
+	color: white;
+	font-size: 1.1em;
+}
+
+.tubeTitle{
+	color: white;
+	font-size: 1.1em;
+}
+
+

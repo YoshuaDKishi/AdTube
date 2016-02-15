@@ -16,6 +16,44 @@ Template Name: articlealltop Template
 
 ?>
 
+
+<div class="filback">
+	<div class="filcontainer">
+		<div class="all-title">
+			ジャンル一覧
+		</div>
+			<div class="lime">
+				<div class="dividerLine"></div>
+			</div>
+		<div class="genre-title">
+		<ul>
+			<li class="genreTitle">
+				<p class="catTitle">カテゴリで探す：<br></span>
+			<a href="<?php echo get_home_url(); ?>/Movie Marketing/articleall?id=">　食品 |</a>
+			<a href="<?php echo get_home_url(); ?>/Movie Marketing/articleall?id=">　家具 |</a>
+			<a href="<?php echo get_home_url(); ?>/Movie Marketing/articleall?id=">　やってみた |</a>
+			<a href="<?php echo get_home_url(); ?>/Movie Marketing/articleall?id=">　特集 |</a>
+			</li>
+		</ul>
+		<div class="lime">
+				<div class="dividerLine"></div>
+			</div>
+		<ul>
+			<li class="tuberTitle">
+				<p class="tubeTitle">Youtuberで探す：<br></span>
+			<a href="<?php echo get_home_url(); ?>/Movie Marketing/articleall?id=">　人気のAdTuber　|</a>
+			<a href="<?php echo get_home_url(); ?>/Movie Marketing/articleall?id=">　新人AdTuber　|</a>
+			<a href="<?php echo get_home_url(); ?>/Movie Marketing/articleall?id=">　特集　|</a>
+			<a href="<?php echo get_home_url(); ?>/Movie Marketing/articleall?id="></a>
+			</li>
+		</ul>
+		</div>
+		
+	</div>	
+</div>
+
+
+
 <div class="alltopsitedesign">
 	<div class="alltopsitedesign">
 		<div class="contentblockx">
@@ -54,12 +92,16 @@ Template Name: articlealltop Template
 	        </a>   
 	      </div>
 	      <!--topcontent-->
-			<ul class="col-md-3 col-sm-3 col-xs-12" >
+			<div class="col-md-3 col-sm-3 col-xs-12" >
 						<?php
 						get_sidebar(); ?>
-			</ul>
+			</div>
 		</div>
 		<!--contentblockx-->
+		<div class="lime">
+		<div class="dividerLine"></div>
+		</div>
+
 	</div>
 	<div class="alltopsitedesign">
 		<div class="contentblock">

@@ -38,7 +38,7 @@ Template Name: loginform Template
 		<div class="entry-content">
 			<div class="col-md-12">
 	        <center>
-	        <h2>会員登録はこちら！</h2>
+	        <h2>広告出稿のサービスはこちら</h2>
 	        </center>
 	     </div>
 		<?php echo do_shortcode( '[swpm_registration_form level=5]'); ?>
@@ -67,7 +67,7 @@ Template Name: loginform Template
 	<div class="entry-content">
 		<div class="col-md-12">
         	<center>
-        	<h3> AdTuberとは？</h3>
+        	<h3> AdTuberASPサービスについて</h3>
         	</center>
       	</div>
 
