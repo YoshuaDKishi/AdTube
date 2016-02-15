@@ -120,6 +120,22 @@ function wp_register_script( $handle, $src, $deps = array(), $ver = false, $in_f
 }
 
 
+function filter_other_post( $wp_query ) {
+    global $pagenow, $current_user;
+
+    if($pagenow != 'admin-ajax.php' && $pagenow != "edit.php" ) {
+        return;
+    }
+
+    if($current_user->roles[0] == "administrator") {
+        //管理者はすべて閲覧可能
+        return;
+    }
+
+    $wp_query->query_vars['author'] = $current_user->ID;
+}
+
+
 function custom_login_logo() {
  echo '<style type="text/css">h1 a { background: url('.get_bloginfo('template_directory').'/images/logo-login.gif) 50% 50% no-repeat !important; }</style>';
  }
@@ -128,9 +144,6 @@ add_action('login_head', 'custom_login_logo');
 
 // バージョン更新を非表示にする
 add_filter('pre_site_transient_update_core', '__return_zero');
-// APIによるバージョンチェックの通信をさせない
-remove_action('wp_version_check', 'wp_version_check');
-remove_action('admin_init', '_maybe_update_core');
 
 // フッターWordPressリンクを非表示に
 function custom_admin_footer() {
