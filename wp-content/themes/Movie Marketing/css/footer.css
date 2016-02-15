@@ -1,6 +1,6 @@
 /*フッターのデザイン*/
 .footer {
-	position: relative;
+
 	width: 100%;
 	text-align: center;
     padding-bottom: 15px;
@@ -8,7 +8,7 @@
     border-top: 2px dotted #FF00FF;
     display: block;
     overflow: inherit;
-    margin-top: -20px;
+    margin-top: 20px;
     margin-right: -120px;
     bottom: 0px;
 }

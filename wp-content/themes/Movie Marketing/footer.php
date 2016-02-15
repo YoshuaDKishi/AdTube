@@ -44,8 +44,7 @@ $(function() {
 </script>
 
 <footer class="footer">
-  <div class ="slabel"><span class="glyphicon glyphicon-scissors" aria-hidden="true"></span></div>
-  <div id ="appearme"></div>
+
 <div><center><p class="large">AdTube</p></center></div>
     <div class="container">
 

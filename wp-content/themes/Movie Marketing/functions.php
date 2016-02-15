@@ -1,11 +1,11 @@
 <?php 
-function getPostByCatId($cat_id, $page_num) {
+function getPostByCatId($cat_id, $page_num, $orderby) {
 
 	$args = array(
           'posts_per_page'   => $page_num,
           'offset'           => 0,
           'category'         => $cat_id,
-          'orderby'          => 'post_date',
+          'orderby'          => $orderby,
           'order'            => 'DESC',
           'include'          => '',
           'exclude'          => '',

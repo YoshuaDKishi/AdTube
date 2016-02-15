@@ -115,7 +115,7 @@ $(function() {
          
           <div id="menubar"  class ="collapse navbar-collapse target">
             <ul id="mainmenu" class = "nav navbar-nav" >
-              <li class ="button hvr-buzz-out"><a href="<?php echo get_home_url(); ?>/Movie Marketing/articleall?id">動画を探す</a></li>
+              <li class ="button hvr-buzz-out"><a href="<?php echo get_home_url(); ?>/Movie Marketing/articlealltop?id">動画を探す</a></li>
               <li class ="button hvr-buzz-out"><a href="<?php echo get_home_url(); ?>/adtuberLoginform">AdTuberはこちら</a></li>
               <li class ="button hvr-buzz-out"><a href="<?php echo get_home_url(); ?>/loginform">企業の方はコチラ</a></li>
               <li>

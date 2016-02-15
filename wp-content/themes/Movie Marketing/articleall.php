@@ -24,7 +24,7 @@ Template Name: articleall Template
 		<h2 class="entry-title">おすすめのコンテンツ</h2>
 	</center>
 <div class="topcontent col-md-12 col-sm-12 col-xs-12">
-	<div
+
 </div>
 
 

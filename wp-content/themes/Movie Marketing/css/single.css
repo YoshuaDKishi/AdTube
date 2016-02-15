@@ -78,6 +78,7 @@ box-shadow:rgba(201, 201, 201, 0.65098) 0px 5px 6px 3px;
   margin-right: auto;
   margin-bottom: 50px;
   padding-bottom: 10px;
+  margin-top: 30px;
 }
 }
 
@@ -978,7 +979,8 @@ ul#event li:first-child {
 
 
   .allsitedesign{
-    background-color: #F4F4F4
-
+    background-color: #F4F4F4;
+    margin-top:200px;
+    display: block;
 
   }
