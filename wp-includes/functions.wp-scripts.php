@@ -120,20 +120,22 @@ function wp_register_script( $handle, $src, $deps = array(), $ver = false, $in_f
 }
 
 
-function filter_other_post( $wp_query ) {
-    global $pagenow, $current_user;
+//他の人の投稿を見れないようにする
 
-    if($pagenow != 'admin-ajax.php' && $pagenow != "edit.php" ) {
-        return;
+function exclude_other_posts( $wp_query ) {
+    if ( isset( $_REQUEST['post_type'] ) && post_type_exists( $_REQUEST['post_type'] ) ) {
+        $post_type = get_post_type_object( $_REQUEST['post_type'] );
+        $cap_type = $post_type->cap->edit_other_posts;
+    } else {
+        $cap_type = 'edit_others_posts';
     }
-
-    if($current_user->roles[0] == "administrator") {
-        //管理者はすべて閲覧可能
-        return;
+ 
+    if ( is_admin() && $wp_query->is_main_query() && ! $wp_query->get( 'author' ) && ! current_user_can( $cap_type ) ) {
+        $user = wp_get_current_user();
+        $wp_query->set( 'author', $user->ID );
     }
-
-    $wp_query->query_vars['author'] = $current_user->ID;
 }
+add_action( 'pre_get_posts', 'exclude_other_posts' );
 
 
 function custom_login_logo() {
