@@ -214,7 +214,10 @@ function remove_menus () {
  unset($menu[90]); // メニューの線3
  }
  }
+
 add_action('admin_menu', 'remove_menus');
+
+
 
 
 // 投稿画面の項目を非表示にする
